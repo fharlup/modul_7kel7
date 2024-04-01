@@ -18,7 +18,7 @@ public class TeamMembers1302223019
 
     public void ReadJSON()
     {
-        string json = File.ReadAllText("jurnal7_1_1302223019.json");
+        string json = File.ReadAllText("jurnal7_2_1302223019.json");
 
         var memberData = JsonSerializer.Deserialize<TeamMembers1302223019>(json);
 
