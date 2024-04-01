@@ -1,0 +1,15 @@
+{
+   "firstName": "Alvan",
+   "lastName": "Marvianto",
+   "gender": "male",
+   "age": 20,
+   "address": {
+       "streetAddress": "Bojongsoang",
+       "city": "Banfrdung",
+       "state": "West Java"
+   },
+   "courses": [
+       { "code": "CRI2C4", "name": "Konstruksi Perangkat Lunak" },
+       { "code": "CRI2E4", "name": "Basis Data" }
+   ]
+}

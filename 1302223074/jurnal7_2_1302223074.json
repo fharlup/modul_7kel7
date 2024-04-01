@@ -1,0 +1,46 @@
+{
+  "members": [
+    {
+      "firstName": "Aaron",
+      "lastName": "Joseph",
+      "gender": "male",
+      "age": 28,
+      "nim": "011029018"
+    },
+    {
+      "firstName": "Puri",
+      "lastName": "Anagatha",
+      "gender": "female",
+      "age": 32,
+      "nim": "654321"
+    },
+    {
+      "firstName": "Fajar",
+      "lastName": "Mufid",
+      "gender": "male",
+      "age": 24,
+      "nim": "123456"
+    },
+    {
+      "firstName": "Alvan",
+      "lastName": "Marvianto",
+      "gender": "male",
+      "age": 24,
+      "nim": "123456"
+    },
+    {
+      "firstName": "Matthew",
+      "lastName": "Fabian",
+      "gender": "male",
+      "age": 24,
+      "nim": "123456"
+    },
+    {
+      "firstName": "Yazid",
+      "lastName": "Alghozali",
+      "gender": "male",
+      "age": 24,
+      "nim": "123456"
+    }
+  ]
+}
