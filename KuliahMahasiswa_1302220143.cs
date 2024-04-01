@@ -1,9 +1,9 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
 
-public class DataMahasiswa1302223019
+public class DataMahasiswa1302223032
 {
     public string firstName { get; set; }
     public string lastName { get; set; }
@@ -27,9 +27,9 @@ public class DataMahasiswa1302223019
 
     public void ReadJSON()
     {
-        string json = File.ReadAllText("jurnal7_1_1302223019.json");
+        string json = File.ReadAllText("jurnal7_1_1302220143.json");
 
-        var dataMahasiswa = JsonSerializer.Deserialize<DataMahasiswa1302223019>(json);
+        var dataMahasiswa = JsonSerializer.Deserialize<DataMahasiswa1302223032>(json);
 
         if (dataMahasiswa != null)
         {

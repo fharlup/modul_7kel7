@@ -1,35 +1,36 @@
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.IO;
+using System.Net;
 using System.Text.Json;
+using static DataMahasiswa1302223074;
 
-public class DataMahasiswa1302223019
+public class DataMahasiswa1302223074
 {
     public string firstName { get; set; }
     public string lastName { get; set; }
     public string gender { get; set; }
     public int age { get; set; }
-    public Address address { get; set; }
-    public List<Course> courses { get; set; }
+    public Alamat address { get; set; }
+    public List<Courses> courses { get; set; }
 
-    public class Address
+    public class Alamat
     {
-        public string streetAddress { get; set; }
-        public string city { get; set; }
-        public string state { get; set; }
+        public string streetAddress;
+        public string city;
+        public string state;
     }
-
-    public class Course
+    public class Courses
     {
-        public string code { get; set; }
-        public string name { get; set; }
+        public string code;
+        public string name;
     }
-
     public void ReadJSON()
     {
-        string json = File.ReadAllText("jurnal7_1_1302223019.json");
+        string json = File.ReadAllText("D:\\Alvan\\kliah\\sem4\\kpl\\praktikum\\modul_7kel7\\1302223074\\jurnal7_1_1302223074.json");
 
-        var dataMahasiswa = JsonSerializer.Deserialize<DataMahasiswa1302223019>(json);
+        var dataMahasiswa = JsonSerializer.Deserialize<DataMahasiswa1302223074>(json);
+
+        Console.WriteLine("SOAL 1");
 
         if (dataMahasiswa != null)
         {
