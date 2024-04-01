@@ -30,7 +30,7 @@ namespace modul_7kel7
 
         public void ReadJson()
         {
-            string json = File.ReadAllText("jurnal7_1_1302223032.json");
+            string json = File.ReadAllText("jurnal7_1_1302223047.json");
 
             var dataMahasiswa = JsonSerializer.Deserialize<DataMahasiswa1302223032>(json);
 
