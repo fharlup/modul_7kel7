@@ -3,10 +3,8 @@ using System.Text.Json;
 using System.Collections.Generic;
 using System.IO;
 
-namespace modul_7kel7
 
-{
-	public class DataMahasiswa1302223047
+public class DataMahasiswa1302223047
 	{
         public string firstName { get; set; }
         public string lastName { get; set; }
@@ -57,5 +55,5 @@ namespace modul_7kel7
 
         }
     }
-}
+
 
