@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System.Text.Json;
+
+var dataMahasiswa1302223074 = new DataMahasiswa1302223074();
+dataMahasiswa1302223074.ReadJSON();
